@@ -1,6 +1,10 @@
+group = 'com.github.jamlumauig'
+
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
+
 }
 android {
     namespace 'com.wishland.soler'
