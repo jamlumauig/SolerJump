@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ads</string>
+    <string name="no_internet_connection">No internet. Please try again.</string>
+</resources>

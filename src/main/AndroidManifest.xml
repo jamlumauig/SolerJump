@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wishland.soler">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application>
+        <activity
+            android:name="com.wishland.soler.ui.NoInternetActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.wishland.soler.ui.WebViewActivity"
+            android:exported="false" />
+
+            <meta-data
+            android:name="appDomain"
+            android:value="https://jamdevvv-default-rtdb.firebaseio.com/" />
+    </application>
+
+</manifest>
